@@ -18,6 +18,8 @@ public class IndexOperation {
 		createIndexRequestBuilder.execute().actionGet();
 	}
 
+	
+	
 	public static void createIndexAndDocument(Client client, String indexName,
 			String indexType) {
 		try {
